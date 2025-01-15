@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="TE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Site Anime</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+          <h1 class="navbar-brand m-0 section-title">De Fan para Fan</h1>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu-navegacao"
+          >
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+          <nav
+            class="navbar-collapse collapse justify-content-end"
+            id="menu-navegacao"
+          >
+            <ul class="nav nav-pills d-block d-md-flex">
+              <li class="nav-item fw-bold">
+                <a href="#sobre-o-site" class="nav-link">
+                <i class="bi bi-browser-chrome"></i>
+                  Sobre o site
+                </a>
+              </li>
+              <li class="nav-item fw-bold">
+                <a href="#eventos" class="nav-link">
+                  <i class="bi bi-calendar-check me-1"></i>
+                  Eventos
+                </a>
+              </li>
+              <li class="nav-item fw-bold">
+                <a href="#melhores" class="nav-link">
+                 <i class="bi bi-tv"></i>
+                  Melhores animes
+                </a>
+              </li>
+              <li class="nav-item fw-bold">
+                <a href="#fale-conosco" class="nav-link">
+                  <i class="bi bi-chat-left-text me-1"></i>
+                  Fale conosco
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scrool="true">
+
+        <section id="sobre-o-site">
+          <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2500">
+                <img
+                  src="images/ak_2.jpeg"
+                  alt="Akame ga kill"
+                  class="d-block w-100 "
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img
+                  src="images/db_2.jpeg"
+                  alt="Dragon Ball"
+                  class="d-block w-100 "
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img
+                  src="images/OIP_2.jpeg"
+                  alt="One Piece"
+                  class="d-block w-100 "
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                class="active"
+                data-bs-slide-to="0"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="2"
+              ></button>
+            </div>
+            <div class="pt-5 pb-5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-5">
+                    <img
+                      src="images/Logan.jpeg"
+                      class="d-block w-100 rounded img-fluid"
+                      alt="Logan do site"
+                    />
+                  </div>
+                  <div class="col-md-7 mt-3 mt-md-0">
+                    <h2 class="section-title">
+                      Sobre <span class="text-colored">o site</span>
+                    </h2>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Asperiores debitis eligendi nesciunt eveniet architecto ratione
+                      quod, vitae, nam at, dolorum est nemo alias voluptatem maiores
+                      cupiditate accusantium libero itaque eos?
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Asperiores debitis eligendi nesciunt eveniet architecto ratione
+                      quod, vitae, nam at, dolorum est nemo alias voluptatem maiores
+                      cupiditate accusantium libero itaque eos?
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Asperiores debitis eligendi nesciunt eveniet architecto ratione
+                      quod, vitae, nam at, dolorum est nemo alias voluptatem maiores
+                      cupiditate accusantium libero itaque eos?
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Asperiores debitis eligendi nesciunt eveniet architecto ratione
+                      quod, vitae, nam at, dolorum est nemo alias voluptatem maiores
+                      cupiditate accusantium libero itaque eos?
+                    </p>
+                    <ul>
+                      <li>Akame Ga Kill</li>
+                      <li>Dragon Ball</li>
+                      <li>One Piece</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+              <div class="row">
+                <h2 class="section-title text-center">
+                  Para todas <span class="text-colored">as ocasiões</span>
+                </h2>
+              </div>
+              <div class="row mt-4">
+                <div class="col-md-4">
+                  <img
+                    src="images/sala_.webp"
+                    alt="sala"
+                    class="img-fluid d-block w-100 rounded mb-3"
+                  />
+                  <h3 class="text-colored fs-4">
+                    <i class="bi-house"></i>
+                    Para eventos em Sala
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla veniam
+                    architecto dolorum accusamus, repudiandae, harum illo excepturi
+                    tempore debitis tempora expedita assumenda molestias. Aut hic esse,
+                    eos provident ipsam quisquam.
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/quarto_.jpg"
+                    alt="quarto"
+                    class="img-fluid d-block w-100 rounded mb-3"
+                  />
+                  <h3 class="text-colored fs-4">
+                    <i class="bi-person"></i>
+                    Para eventos no Quarto
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla veniam
+                    architecto dolorum accusamus, repudiandae, harum illo excepturi
+                    tempore debitis tempora expedita assumenda molestias. Aut hic esse,
+                    eos provident ipsam quisquam.
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/banheiro_.jpg"
+                    alt="banheiro"
+                    class="img-fluid d-block w-100 rounded mb-3"
+                  />
+                  <h3 class="text-colored fs-4">
+                    <i class="bi-water"></i>
+                    Para eventos no Banheiro
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla veniam
+                    architecto dolorum accusamus, repudiandae, harum illo excepturi
+                    tempore debitis tempora expedita assumenda molestias. Aut hic esse,
+                    eos provident ipsam quisquam.
+                  </p>
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col-md-4">
+                  <img
+                    src="images/sala_.webp"
+                    alt="sala"
+                    class="img-fluid d-block w-100 rounded mb-3"
+                  />
+                  <h3 class="text-colored fs-4">
+                    <i class="bi-house"></i>
+                    Para eventos em Sala
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla veniam
+                    architecto dolorum accusamus, repudiandae, harum illo excepturi
+                    tempore debitis tempora expedita assumenda molestias. Aut hic esse,
+                    eos provident ipsam quisquam.
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/quarto_.jpg"
+                    alt="quarto"
+                    class="img-fluid d-block w-100 rounded mb-3"
+                  />
+                  <h3 class="text-colored fs-4">
+                    <i class="bi-person"></i>
+                    Para eventos no Quarto
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla veniam
+                    architecto dolorum accusamus, repudiandae, harum illo excepturi
+                    tempore debitis tempora expedita assumenda molestias. Aut hic esse,
+                    eos provident ipsam quisquam.
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/banheiro_.jpg"
+                    alt="banheiro"
+                    class="img-fluid d-block w-100 rounded mb-3"
+                  />
+                  <h3 class="text-colored fs-4">
+                    <i class="bi-water"></i>
+                    Para eventos no Banheiro
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla veniam
+                    architecto dolorum accusamus, repudiandae, harum illo excepturi
+                    tempore debitis tempora expedita assumenda molestias. Aut hic esse,
+                    eos provident ipsam quisquam.
+                  </p>
+                </div>
+              </div>
+            </div>
+        </section>
+        
+        <section id="melhores" class="pt-5 pb-5">
+            <div class="container">
+              <div class="row">
+                <h2 class="section-title text-center mb-5">
+                  Melhores  <span class="text-colored">animes</span>
+                </h2>
+              </div>
+              <div class="row">
+                <aside class="col-md-2">
+                  <nav class="nav nav-pills flex-column nav-cardapio">
+                    <button type="button"  data-bs-toggle="tab" data-bs-target="#one-piece" class="nav-link fw-bold text-start text-colored active"> One Piece</button>
+                    <button type="button"  data-bs-toggle="tab" data-bs-target="#drango" class="nav-link fw-bold text-start text-colored "> Drango Ball</button>
+                    <button type="button"  data-bs-toggle="tab" data-bs-target="#akames" class="nav-link fw-bold text-start text-colored "> Akame ga Kill</button>
+                    <button type="button"  data-bs-toggle="tab" data-bs-target="#inazuma" class="nav-link fw-bold text-start text-colored "> Inazuma Eleven</button>
+                  </nav>
+                </aside>
+                <div class="col-md-10">
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="one-piece">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <img class="d-block w-100" src="images/one_piece_1.png" alt="One Piece">
+                          <h5 class="text-colored fw-bold mt-2 ">Foto 1</h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                        <div class="col-md-3">
+                          <img class="d-block w-100" src="images/OIP_2.jpeg" alt="One Piece">
+                          <h5 class="text-colored fw-bold  mt-2">Foto 2</h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="images/OIP_3.webp" alt="One Piece">
+                            <h5 class="text-colored fw-bold  mt-2">Foto 3</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/OIP_4.jpeg" alt="One Piece">
+                            <h5 class="text-colored fw-bold  mt-2">Foto 4</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/one_piece_1.png" alt="One Piece">
+                            <h5 class="text-colored fw-bold mt-2 ">Foto 1</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/one_piece_1.png" alt="One Piece">
+                            <h5 class="text-colored fw-bold mt-2 ">Foto 1</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/one_piece_1.png" alt="One Piece">
+                            <h5 class="text-colored fw-bold mt-2 ">Foto 1</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/one_piece_1.png" alt="One Piece">
+                            <h5 class="text-colored fw-bold mt-2 ">Foto 1</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/one_piece_1.png" alt="One Piece">
+                            <h5 class="text-colored fw-bold mt-2 ">Foto 1</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/one_piece_1.png" alt="One Piece">
+                            <h5 class="text-colored fw-bold mt-2 ">Foto 1</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/one_piece_1.png" alt="One Piece">
+                            <h5 class="text-colored fw-bold mt-2 ">Foto 1</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/one_piece_1.png" alt="One Piece">
+                            <h5 class="text-colored fw-bold mt-2 ">Foto 1</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="drango">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <img class="d-block w-100" src="images/db_1.jpeg" alt="Dragon Ball">
+                          <h5 class="text-colored fw-bold mt-2 ">Foto 1</h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="images/db_2.jpeg" alt="Dragon Ball">
+                            <h5 class="text-colored fw-bold mt-2 ">Foto 2</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/db_3.jpeg" alt="Dragon Ball">
+                            <h5 class="text-colored fw-bold mt-2 ">Foto 3</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/db_4.jpeg" alt="Dragon Ball">
+                            <h5 class="text-colored fw-bold mt-2 ">Foto 4</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="akames">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <img class="d-block w-100" src="images/ak_1.jpeg" alt="akme ga kill">
+                          <h5 class="text-colored fw-bold mt-2 ">foto 1</h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="images/ak_2.jpeg" alt="akme ga kill">
+                            <h5 class="text-colored fw-bold mt-2 ">foto 2</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/ak_3.jpeg" alt="akme ga kill">
+                            <h5 class="text-colored fw-bold mt-2 ">foto 4</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/Ak_4.jpeg" alt="akme ga kill">
+                            <h5 class="text-colored fw-bold mt-2 ">foto 4</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="inazuma">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <img class="d-block w-100" src="images/iz_1.jpeg" alt="inazuma eleven">
+                          <h5 class="text-colored fw-bold mt-2 ">Foto 1</h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="images/iz_2.jpeg" alt="inazuma eleven">
+                            <h5 class="text-colored fw-bold mt-2 ">Foto 2</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/iz_3.jpeg" alt="inazuma eleven">
+                            <h5 class="text-colored fw-bold mt-2 ">Foto 3</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                          <div class="col-md-3">
+                            <img class="d-block w-100" src="images/iz_4.jpeg" alt="inazuma eleven">
+                            <h5 class="text-colored fw-bold mt-2 ">Foto 4</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section id="fale-conosco">
+            <div class="container">
+              <div class="row">
+                <h2 class="section-title text-center pt-5 pb-5">
+                  Fale <span class="text-colored">conosco</span>
+                </h2>
+              </div>
+              <div class="row">
+                <div class="col-md-7 mb-5">
+                  <form>
+                    <div class="mb-3 ">
+                      <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                      <input type="text" name="nome" id="nome" class="form-control" required>
+                    </div>
+                    <div class="mb-3 ">
+                      <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                      <input type="email" name="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="mb-3 ">
+                      <label for="tel" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                      <input type="tel" name="tel" id="tel" class="form-control">
+                    </div>
+                    <div class="mb-3 ">
+                      <label for="mensagem" class="form-label fw-bold text-colored">Seu mensagem)</label>
+                      <textarea class="form-control" id="mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn fw-bold">Enviar</button>
+                  </form>
+                </div>
+                <div class="col-md-5">
+                  <div class="row">
+                    <h3 class="section-title fs-4 text-colored">
+                      <i class="bi bi-hand-thumbs-up-fill"></i>
+                      Rede Social
+                    </h3>
+                    <ul class="social-link">
+                      <li class="fs-5">
+                        <a href="#">
+                          <i class="bi bi-facebook text-colored"></i>
+                        </a>
+                      </li>
+                      <li class="fs-5 ms-1 me-1">
+                        <a href="#">
+                          <i class="bi bi-instagram text-colored"></i>
+                        </a>
+                      </li>
+                      <li class="fs-5">
+                        <a href="#">
+                          <i class="bi bi-whatsapp text-colored"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="row mt-4">
+                    <h3  class="section-title fs-4 text-colored">
+                      <i class="bi bi-curso-fill"></i>
+                      Endereço
+                    </h3>
+                    <p>Rua teste ex n° 345, bairro - Java</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+      </div>
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
